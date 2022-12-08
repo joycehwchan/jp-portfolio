@@ -18,8 +18,8 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">
-                    Joyce C.
+                <a href="https://joycehwchan.github.io/portfolio/" className="nav__logo">
+                    <i class="uil uil-globe"></i> English
                 </a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -29,7 +29,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#home")} 
                                 className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-estate nav__icon"></i> Home
+                                <i className="uil uil-estate nav__icon"></i> ホーム
                             </a>
                         </li>
 
@@ -38,7 +38,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#about")} 
                                 className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-user nav__icon"></i> About
+                                <i className="uil uil-user nav__icon"></i> プロフィール
                             </a>
                         </li>
 
@@ -47,7 +47,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#skills")} 
                                 className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-file-alt nav__icon"></i>Skills
+                                <i className="uil uil-file-alt nav__icon"></i>スキル
                             </a>
                         </li>
 
@@ -56,7 +56,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#portfolio")} 
                                 className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}
                             >                               
-                                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                                <i className="uil uil-scenery nav__icon"></i> ポートフォリオ
                             </a>
                         </li>
 
@@ -65,7 +65,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#services")} 
                                 className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-suitcase-alt nav__icon"></i>Services
+                                <i className="uil uil-suitcase-alt nav__icon"></i>サービス
                             </a>
                         </li>
 
@@ -74,7 +74,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#contact")} 
                                 className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-message nav__icon"></i> Contact
+                                <i className="uil uil-message nav__icon"></i> 連絡先
                             </a>
                         </li>
                     </ul>

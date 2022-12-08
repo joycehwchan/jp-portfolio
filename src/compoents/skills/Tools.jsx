@@ -3,7 +3,7 @@ import React from 'react'
 const Tools = () => {
   return (
     <div className="skills__content">
-    <h3 className="skills__title">Other Tools</h3>
+    <h3 className="skills__title">ツール</h3>
 
     <div className="skills__box">
         <div className="skills__group">

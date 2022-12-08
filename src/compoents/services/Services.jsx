@@ -10,11 +10,13 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-        <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What I offer</span>
+        <h2 className="section__title">サービス</h2>
+        <span className="section__subtitle"></span>
 
-        <div className="services__container container grid">
-            <div className="services__content">
+        <div className="services__container container">
+                <h3 class="services__coming-soon">Coming soon...</h3> 
+            
+            {/* <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
@@ -174,7 +176,7 @@ const Services = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )

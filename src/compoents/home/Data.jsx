@@ -4,17 +4,18 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Joyce Chan
+            ジョイス・チャン
         </h1>
         <h3 className="home__subtitle">
-            Frontend Developer
+            デザインに命を吹き込む
         </h3>
         <p className="home__description">
-            I'm a front-end developer with a passion for creating entertaining and engaging user experiences, and I love to bring interesting designs to life. 
+            カナダ生まれ香港育ち東京在住、<br />
+            フロントエンドエンジニア兼Webデザイナー。 
         </p>
 
         <a href="#contact" className="button button--flex">
-            Say Hello 
+            連絡先 
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

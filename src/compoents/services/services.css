@@ -4,6 +4,12 @@
     column-gap: 1.8rem;
 }
 
+.services__coming-soon {
+    text-align: center;
+    padding: 8rem 0;
+    color: var(--text-color);
+}
+
 .services__content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);

@@ -19,13 +19,13 @@
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
+  --normal-font-size: .93rem;
+  --small-font-size: 0.8rem;
+  --smaller-font-size: 0.75rem;
   --tiny-font-size: 0.625rem;
 
   /*========== Font weight ==========*/
@@ -57,7 +57,7 @@
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
-    --big-font-size: 2.75rem;
+    --big-font-size: 2.2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;

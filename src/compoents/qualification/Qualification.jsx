@@ -10,8 +10,8 @@ const Qualification = () => {
 
     return (
         <section className="qualification section">
-            <h2 className="section__title">Experience</h2>
-            <span className="section__subtitle">My personal journey</span>
+            <h2 className="section__title">経歴</h2>
+            <span className="section__subtitle"></span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -20,7 +20,7 @@ const Qualification = () => {
                         onClick={() => toggleTab(1)}
                     >
                         <i className="uil uil-graduation-cap qualification__icon"></i> 
-                        Education
+                        学歴・資格
                     </div>
 
                     <div 
@@ -28,7 +28,7 @@ const Qualification = () => {
                         onClick={() => toggleTab(2)}
                     >
                         <i className="uil uil-briefcase-alt qualification__icon"></i> 
-                        Experience
+                        職歴・経験
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Qualification = () => {
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Full-stack Web Development</h3>
+                                <h3 className="qualification__title">ウェブ開発コース</h3>
                                 <span className="qualification__subtitle">
                                     Le Wagon Tokyo
                                 </span>
@@ -62,7 +62,7 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Google UX Design Professional Certificate</h3>
+                                <h3 className="qualification__title">Google UXデザイン プロフェッショナル認定</h3>
                                 <span className="qualification__subtitle">
                                     Google / Coursera
                                 </span>
@@ -74,7 +74,7 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Japanese-Language Proficiency Test N1</h3>
+                                <h3 className="qualification__title">日本語能力試験 N1</h3>
                                 <span className="qualification__subtitle">
                                     Japan Foundation
                                 </span>
@@ -98,7 +98,7 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Bachelor's Degree, Economics</h3>
+                                <h3 className="qualification__title">ヨーク大学経済学部経済学科</h3>
                                 <span className="qualification__subtitle">
                                 York University
                                 </span>
@@ -113,9 +113,9 @@ const Qualification = () => {
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Front-end Lead</h3>
+                                <h3 className="qualification__title">フロントエンドエンジニア</h3>
                                 <span className="qualification__subtitle">
-                                    Project: TabiNow
+                                    プロジェクト: 旅Now
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calender"></i> 2022.11 - 2022.12
@@ -137,9 +137,9 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Lead Developer</h3>
+                                <h3 className="qualification__title">フルスタックエンジニア</h3>
                                 <span className="qualification__subtitle">
-                                    Project: MinaNoka
+                                    プロジェクト: MinaNoka
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calender"></i> 2022.11
@@ -149,9 +149,9 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">UX/UI Designer</h3>
+                                <h3 className="qualification__title">UX/UI デザイナー</h3>
                                 <span className="qualification__subtitle">
-                                    Project: OnTrack
+                                    プロジェクト: OnTrack
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calender"></i> 2021.12 - 2022.01
@@ -173,9 +173,9 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Coordinator for International Relations</h3>
+                                <h3 className="qualification__title">国際交流員</h3>
                                 <span className="qualification__subtitle">
-                                    Kashihara City Hall, Nara
+                                    橿原市役所　魅力創造部　観光政策課　広域観光係
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calender"></i> 2018.08 - 2022.08
@@ -185,9 +185,9 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Market Research Intern</h3>
+                                <h3 className="qualification__title">インターン</h3>
                                 <span className="qualification__subtitle">
-                                    Whitehole Design Studio, Hong Kong
+                                    Whitehole Design Studio, 香港
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calender"></i> 2017.07 - 2017.08

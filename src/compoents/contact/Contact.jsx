@@ -20,8 +20,8 @@ const Contact = () => {
 
     return (
         <scetion className="contact section" id="contact">
-            <h2 className="section__title">Get in Touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">連絡先</h2>
+            <span className="section__subtitle"></span>
 
             <div className="contact__container container">
                 {/* <div className="contact__content">
@@ -42,39 +42,39 @@ const Contact = () => {
                 </div> */}
 
                 <div className="contact__content">
-                    <div className="contact__title">Send me a message</div>
+                    <div className="contact__title">お気軽にご連絡ください</div>
 
                     <form ref={form} 
                             onSubmit={sendEmail}
                             className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
+                            <label className="contact__form-tag">お名前</label>
                             <input type="text" 
                                     name="name" 
                                     className='contact__form-input' 
-                                    placeholder="Your name"/>
+                                    placeholder="お名前"/>
                         </div>
 
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Email</label>
+                            <label className="contact__form-tag">メール</label>
                             <input type="email" 
                                     name="email" 
                                     className='contact__form-input' 
-                                    placeholder="your@email.com"
+                                    placeholder="name@email.com"
                             />
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Message</label>
+                            <label className="contact__form-tag">メッセージ</label>
                             <textarea name="message" cols="30" rows="10"
                                         className='contact__form-input' 
-                                        placeholder="Your message here!">
+                                        placeholder="メッセージ">
                             </textarea>
                         </div>
 
 
                         <button className="button button--flex">
-                            Send 
+                            送信 
                             <svg
                                 class="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,7 @@ import React from 'react'
 const Design = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Design</h3>
+        <h3 className="skills__title">デザイン</h3>
 
         <div className="skills__box">
             <div className="skills__group">
