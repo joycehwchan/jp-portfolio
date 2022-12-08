@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jp-portfolio/static/css/main.a7e6abcd.css",
-    "main.js": "/jp-portfolio/static/js/main.791ca1fd.js",
+    "main.css": "/jp-portfolio/static/css/main.d563d6ea.css",
+    "main.js": "/jp-portfolio/static/js/main.e85b8a93.js",
     "static/media/profile.jpg": "/jp-portfolio/static/media/profile.8ce47324b2ba92b1c556.jpg",
     "static/media/about.jpg": "/jp-portfolio/static/media/about.d3daa4790ea43732c9fc.jpg",
     "static/media/work1.jpg": "/jp-portfolio/static/media/work1.972c4a621e63f1ffd04f.jpg",
@@ -12,11 +12,11 @@
     "static/media/testimonial1.png": "/jp-portfolio/static/media/testimonial1.345892fe05b4afc2291a.png",
     "static/media/testimonial2.png": "/jp-portfolio/static/media/testimonial2.ed30501363e960ea8a6b.png",
     "index.html": "/jp-portfolio/index.html",
-    "main.a7e6abcd.css.map": "/jp-portfolio/static/css/main.a7e6abcd.css.map",
-    "main.791ca1fd.js.map": "/jp-portfolio/static/js/main.791ca1fd.js.map"
+    "main.d563d6ea.css.map": "/jp-portfolio/static/css/main.d563d6ea.css.map",
+    "main.e85b8a93.js.map": "/jp-portfolio/static/js/main.e85b8a93.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7e6abcd.css",
-    "static/js/main.791ca1fd.js"
+    "static/css/main.d563d6ea.css",
+    "static/js/main.e85b8a93.js"
   ]
 }
