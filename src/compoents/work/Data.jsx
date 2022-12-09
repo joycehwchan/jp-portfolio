@@ -19,7 +19,7 @@ export const projectsData = [
         image: Work2,
         title: 'MinaNoka',
         description: '近くの畑を借りて野菜作り、みんなで農家。',
-        link: 'http://www.minanoka.com/',
+        link: '',
         github: 'https://github.com/joycehwchan/minanoka',
         category: 'web',
         role: 'Lead Developer',

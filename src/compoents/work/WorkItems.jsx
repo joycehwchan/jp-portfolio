@@ -7,7 +7,7 @@ const WorkItems = ({item}) => {
         <h3 className="work__title">{item.title}</h3>
         <div className="work__content">
             <p>{item.description}</p>
-            <p><strong>Tools: </strong>{item.used}</p>
+            <p><strong>使用言語など: </strong>{item.used}</p>
         </div>
 
         <div className="work__links">
@@ -17,8 +17,7 @@ const WorkItems = ({item}) => {
             <a href={item.link} className="work__button" target="_blank" rel="noreferrer">
                 Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
             </a>
-            
-            
+
         </div>
     </div>
   )
