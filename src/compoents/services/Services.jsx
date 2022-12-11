@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
-import "./services.css"
+import React, { useState } from "react";
+import "./services.css";
 
 const Services = () => {
-    const [toggleState, setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(0);
 
-    const toggleTab = (index) => {
-        setToggleState(index);
-    }
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
 
   return (
     <section className="services section" id="services">
-        <h2 className="section__title">サービス</h2>
-        <span className="section__subtitle"></span>
+      <h2 className="section__title">サービス</h2>
+      <span className="section__subtitle"></span>
 
-        <div className="services__container container">
-                <h3 class="services__coming-soon">Coming soon...</h3> 
-            
-            {/* <div className="services__content">
+      <div className="services__container container">
+        <h3 class="services__coming-soon">Coming soon...</h3>
+
+        {/* <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
@@ -177,9 +177,9 @@ const Services = () => {
                     </div>
                 </div>
             </div> */}
-        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

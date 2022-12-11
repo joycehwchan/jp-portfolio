@@ -1,24 +1,24 @@
-import React from 'react'
-import "./skills.css"
-import Frontend from "./Frontend"
-import Backend from './Backend'
-import Design from './Design'
-import Tools from './Tools'
+import React from "react";
+import "./skills.css";
+import Frontend from "./Frontend";
+import Backend from "./Backend";
+import Design from "./Design";
+import Tools from "./Tools";
 
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-        <h2 className="section__title">スキル</h2>
-        <span className="section__subtitle"></span>
-       
-       <div className="skills__container container grid">
+      <h2 className="section__title">スキル</h2>
+      <span className="section__subtitle"></span>
+
+      <div className="skills__container container grid">
         <Frontend />
         <Backend />
         <Design />
         <Tools />
-       </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
