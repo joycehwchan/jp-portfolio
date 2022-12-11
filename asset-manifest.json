@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/jp-portfolio/static/css/main.2cfc4c50.css",
-    "main.js": "/jp-portfolio/static/js/main.a784685b.js",
+    "main.js": "/jp-portfolio/static/js/main.9be3683b.js",
     "static/media/profile.jpg": "/jp-portfolio/static/media/profile.8ce47324b2ba92b1c556.jpg",
     "static/media/about.jpg": "/jp-portfolio/static/media/about.d3daa4790ea43732c9fc.jpg",
     "static/media/work1.jpg": "/jp-portfolio/static/media/work1.972c4a621e63f1ffd04f.jpg",
     "static/media/work2.jpg": "/jp-portfolio/static/media/work2.a557f643407bda023f54.jpg",
     "static/media/resume.pdf": "/jp-portfolio/static/media/resume.bec7937e91c590c5ec86.pdf",
+    "static/media/work4.jpg": "/jp-portfolio/static/media/work4.0c322e5f932df7acd4e2.jpg",
     "static/media/work3.jpg": "/jp-portfolio/static/media/work3.964e755f5132ee73f7a3.jpg",
     "static/media/testimonial3.png": "/jp-portfolio/static/media/testimonial3.aa683d57dea079c9be05.png",
     "static/media/testimonial1.png": "/jp-portfolio/static/media/testimonial1.345892fe05b4afc2291a.png",
     "static/media/testimonial2.png": "/jp-portfolio/static/media/testimonial2.ed30501363e960ea8a6b.png",
     "index.html": "/jp-portfolio/index.html",
     "main.2cfc4c50.css.map": "/jp-portfolio/static/css/main.2cfc4c50.css.map",
-    "main.a784685b.js.map": "/jp-portfolio/static/js/main.a784685b.js.map"
+    "main.9be3683b.js.map": "/jp-portfolio/static/js/main.9be3683b.js.map"
   },
   "entrypoints": [
     "static/css/main.2cfc4c50.css",
-    "static/js/main.a784685b.js"
+    "static/js/main.9be3683b.js"
   ]
 }
