@@ -14,22 +14,31 @@ const WorkItems = ({ item }) => {
       </div>
 
       <div className="work__links">
-        <a
-          href={item.github}
-          className="work__button"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Source <i class="uil uil-github-alt"></i>
-        </a>
-        <a
-          href={item.link}
-          className="work__button"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-        </a>
+        {item.github ? (
+          <a
+            href={item.github}
+            className="work__button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source <i class="uil uil-github-alt"></i>
+          </a>
+        ) : (
+          ""
+        )}
+
+        {item.link ? (
+          <a
+            href={item.link}
+            className="work__button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo <i class="uil uil-external-link-alt"></i>
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
