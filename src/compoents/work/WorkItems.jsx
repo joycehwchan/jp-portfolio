@@ -14,7 +14,7 @@ const WorkItems = ({ item }) => {
       </div>
 
       <div className="work__links">
-        {item.github ? (
+        {item.github && (
           <a
             href={item.github}
             className="work__button"
@@ -23,11 +23,9 @@ const WorkItems = ({ item }) => {
           >
             Source <i class="uil uil-github-alt"></i>
           </a>
-        ) : (
-          ""
         )}
 
-        {item.link ? (
+        {item.link && (
           <a
             href={item.link}
             className="work__button"
@@ -36,8 +34,6 @@ const WorkItems = ({ item }) => {
           >
             Demo <i class="uil uil-external-link-alt"></i>
           </a>
-        ) : (
-          ""
         )}
       </div>
     </div>
