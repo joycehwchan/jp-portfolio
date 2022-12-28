@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/work6.jpg";
 
 export const projectsData = [
   {
@@ -38,6 +39,16 @@ export const projectsData = [
   {
     id: 4,
     image: Work4,
+    title: "ひみつチャット",
+    description: "友達と楽しく話せるチャットアプリ。",
+    link: "https://www.figma.com/proto/1EKelARAwncltUYDV1bhyF/OnTrack?node-id=69%3A2604&scaling=scale-down&page-id=69%3A2574&starting-point-node-id=69%3A2604&hide-ui=1",
+    github: "",
+    category: "design",
+    used: "React, Firebase, Sass",
+  },
+  {
+    id: 5,
+    image: Work5,
     title: "OnTrack",
     description: "自分に合うメンターを見つけて、人生を変えよう。",
     link: "https://www.figma.com/proto/1EKelARAwncltUYDV1bhyF/OnTrack?node-id=69%3A2604&scaling=scale-down&page-id=69%3A2574&starting-point-node-id=69%3A2604&hide-ui=1",
@@ -46,8 +57,8 @@ export const projectsData = [
     used: "Figma",
   },
   {
-    id: 5,
-    image: Work5,
+    id: 6,
+    image: Work6,
     title: "Muvie",
     description:
       "映画チケットを友達にプレゼント！みんなとシネマで映画を楽しもう！",
